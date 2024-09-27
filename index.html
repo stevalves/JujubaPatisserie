@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="./css/main/values.css" />
     <link rel="stylesheet" href="./css/newsteller.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
     <title>Jujuba Patisserie</title>
   </head>
   <body>
@@ -162,7 +163,7 @@
             </header>
             <ul class="top-products-card-categories">
               <li>
-                <a href="#">
+                <a>
                   <i class="fa-solid fa-candy-cane"></i><span>Doces</span>
                 </a>
               </li>
@@ -170,10 +171,10 @@
             <div class="top-products-card-content">
               <img src="./imgs/produtos/cremebrulee.jpeg" alt="Crème brûlée" />
             </div>
-            <a href="#"
-              ><span>Mais Informações</span
-              ><i class="fa-solid fa-up-right-from-square"></i
-            ></a>
+            <button onclick="openModal('cremeBrulee')">
+              <span>Mais Informações</span
+              ><i class="fa-solid fa-up-right-from-square"></i>
+            </button>
           </li>
           <li class="top-products-card">
             <header>
@@ -193,10 +194,10 @@
                 alt="Bolo de Cenoura"
               />
             </div>
-            <a href="#"
-              ><span>Mais Informações</span
-              ><i class="fa-solid fa-up-right-from-square"></i
-            ></a>
+            <button onclick="openModal('boloDeCenoura')">
+              <span>Mais Informações</span
+              ><i class="fa-solid fa-up-right-from-square"></i>
+            </button>
           </li>
           <li class="top-products-card">
             <header>
@@ -213,10 +214,10 @@
             <div class="top-products-card-content">
               <img src="./imgs/produtos/pudim.jpg" alt="Pudim" />
             </div>
-            <a href="#"
-              ><span>Mais Informações</span
-              ><i class="fa-solid fa-up-right-from-square"></i
-            ></a>
+            <button onclick="openModal('pudimDeLeiteCondensado')">
+              <span>Mais Informações</span
+              ><i class="fa-solid fa-up-right-from-square"></i>
+            </button>
           </li>
           <li class="top-products-card">
             <header>
@@ -237,10 +238,10 @@
                 alt="Gelatina 0 Kcal"
               />
             </div>
-            <a href="#"
-              ><span>Mais Informações</span
-              ><i class="fa-solid fa-up-right-from-square"></i
-            ></a>
+            <button onclick="openModal('gelatinaZeroKcal')">
+              <span>Mais Informações</span
+              ><i class="fa-solid fa-up-right-from-square"></i>
+            </button>
           </li>
         </ul>
       </section>
@@ -429,5 +430,6 @@
         </ul>
       </div>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>

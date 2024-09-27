@@ -35,7 +35,6 @@ main > .top-products .top-products-list {
 }
 
 .top-products-card {
-  display: flex;
   flex-direction: column;
   width: 320px;
   border: 1px solid var(--brand3);
@@ -94,7 +93,7 @@ main > .top-products .top-products-list {
   border-radius: 8px;
 }
 
-.top-products-card > a {
+.top-products-card > button {
   display: flex;
   gap: 4px;
   align-items: center;
@@ -103,9 +102,14 @@ main > .top-products .top-products-list {
   text-decoration: none;
   font-weight: 500;
   color: var(--brand3);
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  flex-grow: 100%;
+  width: 100%;
 }
 
-.top-products-card > a:hover {
+.top-products-card > button:hover {
   color: var(--brand1);
   text-decoration: underline;
   transition: .3s;

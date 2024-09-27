@@ -1,0 +1,89 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  min-width: 620px;
+  background-color: #fff;
+  border-radius: 4px;
+  animation: modalDown 1s forwards;
+}
+
+.modalContainer header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  color: var(--gray3);
+}
+
+.modalContainer header h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.modalContainer header i {
+  font-size: 2rem;
+  border: none;
+}
+.modalContainer header button {
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  color: var(--gray3);
+  cursor: pointer;
+}
+
+.modalContainer header button:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.modalContainer main {
+  display: flex;
+  justify-content: center;
+}
+
+.modalContainer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  padding: 12px;
+  color: var(--gray3);
+}
+
+.modalContainer th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.modalContainer th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.modalContainer tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@keyframes modalDown {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
