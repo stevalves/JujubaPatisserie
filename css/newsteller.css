@@ -1,0 +1,55 @@
+.newsteller {
+    margin: 18px 0;
+    padding: 24px 0;
+    background-color: var(--brand2);
+}
+
+.newsteller > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+    color: var(--gray3);
+}
+
+.newsteller > div h2 {
+    font-size: 1.75rem;
+}
+.newsteller > div p {
+    font-size: 1.25rem;
+}
+
+.newsteller form {
+    background-color: var(--gray1);
+    width: 620px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 24px 18px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px;
+}
+
+.newsteller input:not([type=submit]) {
+    padding: 12px 8px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid var(--gray2)
+}
+
+.newsteller input::placeholder {
+    color: var(--gray3);
+    letter-spacing: 0.5px;
+}
+
+.newsteller input[type=submit] {
+    margin-top: 12px;
+    border: 1px solid var(--gray2);
+    cursor: pointer;
+    padding: 12px 0;
+    border-radius: 4px;
+    background-color: var(--gray1);
+}

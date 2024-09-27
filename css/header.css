@@ -1,0 +1,89 @@
+body>header {
+  width: 100vw;
+  border-bottom: 1px solid var(--brand3);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#up-header {
+  height: 40px;
+  width: 100%;
+  background-color: var(--gray2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#up-header a,
+#up-header p {
+  color: var(--brand3);
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-decoration: none;
+}
+
+#up-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#up-header .container div {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+#header {
+  height: 130px;
+  width: 100%;
+  background-color: var(--brand1);
+}
+
+#header .container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#header .container .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#header .container .logo img {
+  height: 64px;
+  width: 64px;
+}
+
+#header .container .logo h1 {
+  color: var(--gray1);
+  text-shadow: 2px 2px 4px var(--brand3);
+  cursor: default;
+}
+
+#header .container ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+  color: var(--gray1);
+  align-items: center;
+  gap: 18px;
+}
+
+#header .container ul li {
+}
+#header .container ul li a {
+}
+
+#header .container ul li a i {
+  font-size: 2rem;
+  color: var(--gray1);
+  text-shadow: 2px 2px 4px var(--brand3);
+}
+
+#header .container ul li a i:hover {
+  color: var(--brand2);
+  transition: .3s;
+}

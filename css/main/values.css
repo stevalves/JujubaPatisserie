@@ -1,0 +1,70 @@
+.values {
+margin-top: 24px;
+}
+
+.values h6 {
+    width: 100%;
+    background-color: var(--brand3);
+    font-size: 1.75rem;
+    padding: 16px 0;
+    text-align: center;
+    color: var(--gray1);
+}
+
+.values > p {
+    width: fit-content;
+    margin: 16px auto;
+    color: var(--brand3);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.values ol {
+    margin: 8px auto;
+    background-color: var(--brand1);
+    padding: 24px 18px;
+    border-radius: 8px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.values ol li {
+    height: fit-content;
+    background-color: var(--brand3);
+    padding: 18px 12px;
+    border-radius: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.values ol li::marker {
+    color: var(--gray2);
+    font-weight: 700;
+    color: var(--brand3);
+    font-size: 1.5rem;
+}
+
+.values ol li p strong {
+    color: var(--gray1);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.values ol li img {
+    min-width: 550px;
+    min-height: 290px;
+    max-width: 550px;
+    max-height: 290px;
+}
+
+.values ol li p {
+    color: var(--brand1);
+    line-height: 150%;
+    font-size: 1.25rem;
+}
+
+.values ol li:nth-child(even) {
+    flex-direction: row-reverse;
+}

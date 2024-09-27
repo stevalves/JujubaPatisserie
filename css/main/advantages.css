@@ -1,0 +1,32 @@
+main > .advantages {
+    margin: 18px auto;
+}
+
+main > .advantages ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main > .advantages ul li strong {
+    text-align: center;
+    color: var(--brand3);
+}
+
+main > .advantages ul li span {
+    text-align: center;
+    color: var(--brand1);
+}
+
+main > .advantages ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+main > .advantages ul .separator {
+    width: 2px;
+    height: 18px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}

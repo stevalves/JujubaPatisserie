@@ -1,0 +1,30 @@
+main > .banner {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  background: rgb(242, 162, 193);
+  background: radial-gradient(
+    circle,
+    rgba(242, 162, 193, 1) 0%,
+    rgba(183, 132, 167, 1) 100%
+  );
+  padding: 8px 0;
+  position: relative;
+}
+
+main > .banner img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+    object-fit: cover;
+    position: absolute;
+    height: 464px;
+}
+
+main > .banner p {
+    position: absolute;
+    bottom: 80px;
+    font-size: 2.5rem;
+    color: var(--brand3);
+    font-weight: 600;
+}

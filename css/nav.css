@@ -1,0 +1,39 @@
+#nav {
+  height: 60px;
+  width: 100vw;
+  margin: 8px 0;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.nav-item {
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-item a i {
+  font-size: 1.75rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--gray3);
+  font-size: 1.15rem;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-item a:hover {
+  color: var(--brand3);
+  transition: 0.3s;
+}

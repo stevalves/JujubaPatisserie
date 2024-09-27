@@ -1,0 +1,68 @@
+.separator {
+  width: 240px;
+  height: 6px;
+  border-radius: 16px;
+  background-color: var(--brand3);
+  margin: 12px 0;
+  align-self: center;
+  opacity: 0.7;
+}
+
+.history {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.history > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 8px;
+  width: fit-content;
+  background-color: var(--brand3);
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.history div:nth-child(1) h3 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: var(--gray1);
+}
+
+.history div:nth-child(1) img {
+  width: 32px;
+  height: 32px;
+}
+
+.history section p {
+  line-height: 175%;
+  color: var(--gray3);
+  text-indent: 2em;
+}
+
+.history section h6 {
+  color: var(--brand3);
+  font-size: 1.75rem;
+  margin: 18px 12px;
+}
+
+.history section p img {
+  width: 380px;
+  float: right;
+  border: 1px dashed var(--brand2);
+  border-radius: 8px;
+  margin-left: 12px;
+}
+
+#tulio p img {
+  float: left;
+  margin: 0 12px 0 0;
+}
+
+#tulio h6 {
+  text-align: end;
+}
